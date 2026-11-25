@@ -1,0 +1,7 @@
+# Render Blueprint: 발표 대본 정적 사이트 (빌드 없음, 이 폴더 그대로 배포)
+services:
+  - type: web
+    name: ml-scrpit-two
+    runtime: static
+    buildCommand: echo "no build"
+    staticPublishPath: .
